@@ -11,7 +11,7 @@ html, body{
     top: 0;
     left: 0;
     bottom: 0;
-    background-color: #C537CC;
+    background: linear-gradient(-180deg, #db2982, #33b69c);
     overflow-y: auto;
     width: 300px;
     transition: all ease-in-out 0.5s;
@@ -83,7 +83,7 @@ html, body{
 }
 
 section#inicio {
-    background-image: url("./img/banner.jpg");
+    background: linear-gradient(-180deg, #eb92be, #63c9b4);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -171,7 +171,7 @@ i.menu-mobile {
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #86148b;
+    background: linear-gradient(-180deg, #eb92be, #63c9b4);
     border-radius: 0%;
 }
 
@@ -281,7 +281,7 @@ i.menu-mobile {
     bottom: 0;
     width: 300px;
     z-index: 9999;
-    background-color: #C537CC;
+    background: linear-gradient(-180deg,#33b69c ,#db2982, );  
     transition: .3s;
 }
 
